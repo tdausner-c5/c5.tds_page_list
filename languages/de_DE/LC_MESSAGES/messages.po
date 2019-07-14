@@ -1,0 +1,535 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tds_page_list 0.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-19T17:44:34+02:00\n"
+"PO-Revision-Date: 2019-06-19 17:47+0200\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: packages/tds_page_list/controller.php:25
+msgid "Add an enhanced list of pages and an enhanced date navigation to your page"
+msgstr "Eine erweiterte Seiten-Liste und eine erweiterte Datums-Navigation zur einer Seite hinzufügen"
+
+#: packages/tds_page_list/controller.php:30
+msgid "TDS Page List &amp; Date Navigation Enhanced"
+msgstr "TDS erweiterte Seiten-Liste &amp; erweiterte Datums-Navigation"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/controller.php:26
+msgid "Displays a list of years or years/months to filter a page list by."
+msgstr "Anzeige einer Liste mit Jahren/Monaten zwecks Filtern einer Seitenliste."
+
+#: packages/tds_page_list/blocks/tds_date_navigation/controller.php:31
+msgid "Date Navigation enhanced"
+msgstr "Erweiterte Datums-Navigation"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/controller.php:40
+msgid "Archives"
+msgstr "Archive"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:6
+msgid "Filtering"
+msgstr "Filtern"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:8
+msgid "By Parent Page"
+msgstr "Durch Eltern-Seite"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:13
+msgid "Filter by Parent Page"
+msgstr "Anhand Eltern-Seite filtern"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:25
+#: packages/tds_page_list/blocks/tds_date_navigation/view.php:15
+#: packages/tds_page_list/blocks/tds_page_list/form.php:52
+msgid "All"
+msgstr "Alle"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:31
+msgid "By Page Type"
+msgstr "Durch Seitentyp"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:37
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:43
+msgid "Redirect to Different Page on Click"
+msgstr "Weiterleiten zu anderer Seite durch Klicken"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:55
+msgid "Formatting"
+msgstr "Formatierung"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:57
+msgid "Title"
+msgstr "Titel"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:62
+msgid "Filter mode"
+msgstr "Art des Filters"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/form.php:70
+msgid "Position of \"all\" entry"
+msgstr "Position des \"alle\"-Eintrages"
+
+#: packages/tds_page_list/blocks/tds_date_navigation/view.php:41
+msgid "None."
+msgstr "Keiner."
+
+#: packages/tds_page_list/blocks/tds_page_list/controller.php:36
+msgid "List pages based on type, date or other criteria."
+msgstr "Seiten auflisten anhand Typ, Datum und anderer Kriterien."
+
+#: packages/tds_page_list/blocks/tds_page_list/controller.php:41
+msgid "Page List enhanced"
+msgstr "Erweiterte Seiten-Liste"
+
+#: packages/tds_page_list/blocks/tds_page_list/controller.php:374
+msgid "Your RSS feed must have a valid URL, containing only letters, numbers or underscores"
+msgstr "Der RSS-Feed muss eine gültige URL haben, bestehend aus Buchstaben, Ziffern und dem Unterstrich"
+
+#: packages/tds_page_list/blocks/tds_page_list/controller.php:377
+msgid "Your RSS feed must have a valid title."
+msgstr "Der RSS-Feed muss einen gültigen Titel aufweisen."
+
+#: packages/tds_page_list/blocks/tds_page_list/controller.php:380
+msgid "Your RSS feed must have a valid description."
+msgstr "Der RSS-Feed muss eine gültige Beschreibung aufweisen."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:28
+msgid "Sampling"
+msgstr "Zusammenstellung"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:29
+msgid "Output"
+msgstr "Ausgabe"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:30
+msgid "Preview"
+msgstr "Vorschau"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:38
+msgid "Pagination"
+msgstr "Seitennavigation"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:41
+msgid "Display pagination interface if more items are available than are displayed."
+msgstr "Seitennavigation einblenden, wenn mehr Elemente verfügbar sind, als angezeigt werden."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:60
+msgid "Page Type"
+msgstr "Seitentyp"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:69
+msgid "Topics"
+msgstr "Themen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:71
+msgid "No topic filtering"
+msgstr "Kein Filtern nach Themen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:72
+msgid "Custom Topic"
+msgstr "Benutzerdefiniertes Thema"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:73
+msgid "Related Topic"
+msgstr "Ähnliches Thema"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:81
+#: packages/tds_page_list/blocks/tds_page_list/form.php:103
+msgid "Choose topics attribute."
+msgstr "Themen-Attribute wählen."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:101
+msgid "Allows other blocks like the topic list block to pass search criteria to this page list block."
+msgstr "Andere Blöcke, wie z.B. eine Themenliste, können auf die Filterkriterien dieses Blocks zugreifen."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:119
+msgid "Filter by Publishing Date"
+msgstr "Filtern anhand Veröffentlichungs-Datum"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:121
+#: packages/tds_page_list/blocks/tds_page_list/form.php:259
+msgid "Show All"
+msgstr "Alle anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:122
+msgid "Today"
+msgstr "Heute"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:123
+msgid "Before Today"
+msgstr "Bis heute"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:124
+msgid "After Today"
+msgstr "Ab heute"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:125
+msgid "Between"
+msgstr "Zwischen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:134
+msgid "Days in the Past"
+msgstr "Tage in der Vergangenheit"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:134
+msgid "Leave 0 to show all past dated pages"
+msgstr "0 beibehalten, um alle Seiten mit zurückliegendem Datum anzuzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:141
+msgid "Days in the Future"
+msgstr "Tage in der Zukunft"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:141
+msgid "Leave 0 to show all future dated pages"
+msgstr "0 beibehalten, um alle Seiten mit zukünftigem Datum anzuzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:150
+msgid "and"
+msgstr "und"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:161
+msgid "Other Filters"
+msgstr "Andere Filter"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:164
+msgid "Featured pages only."
+msgstr "Nur Seiten mit dem Attribut \"hervorgehoben\"."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:166
+msgid "(<strong>Note</strong>: You must create the \"is_featured\" page attribute first.)"
+msgstr "(<strong>Hinweis</strong>: Das Attribut \"is_featured\" muss erst erstellt werden.)"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:170
+msgid "Display page aliases."
+msgstr "Aliasse der Seite anzeigen."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:174
+msgid "Ignore page permissions."
+msgstr "Seitenberechtigungen ignorieren."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:178
+msgid "Enable Other Blocks to Filter This Page List."
+msgstr "Andere Blöcke zum Filtern nutzen."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:191
+msgid "Location"
+msgstr "Ort"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:195
+msgid "Everywhere"
+msgstr "Gesamte Site"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:201
+msgid "Beneath this page"
+msgstr "Unterhalb dieser Seite"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:207
+msgid "At the current level"
+msgstr "Von der aktuellen Ebene"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:213
+msgid "Beneath another page"
+msgstr "Unterhalb einer bestimmten Seite"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:231
+msgid "Include all child pages"
+msgstr "Alle Unterseiten einbeziehen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:242
+msgid "Sort"
+msgstr "Sortierung"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:244
+msgid "Sitemap order"
+msgstr "Sitemapreihenfolge"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:245
+msgid "Reverse sitemap order"
+msgstr "Umgekehrte Sitemapreihenfolge"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:246
+msgid "Most recent first"
+msgstr "Neueste zuerst"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:247
+msgid "Earliest first"
+msgstr "Älteste zuerst"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:248
+msgid "Alphabetical order"
+msgstr "Alphabetische Reihenfolge"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:249
+msgid "Reverse alphabetical order"
+msgstr "Umgekehrte alphabetische Reihenfolge"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:250
+msgid "Most recently modified first"
+msgstr "Zuletzt bearbeitete zuerst"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:251
+#: packages/tds_page_list/blocks/tds_page_list/form.php:441
+msgid "Random"
+msgstr "Zufällig"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:257
+msgid "Display of results"
+msgstr "Anzeige der Ergebnisse"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:260
+msgid "Latest year"
+msgstr "Neuestes Jahr"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:261
+msgid "Latest year & month"
+msgstr "Neuste Jahr/Monat"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:271
+msgid "Number of pages to display"
+msgstr "Anzahl Seiten zur Anzeige"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:276
+msgid "Start page to display"
+msgstr "Erste anzuzeigende Seite"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:290
+msgid "Title of Page List"
+msgstr "Titel der Seitenliste"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:295
+msgid "Message to Display When No Pages Listed."
+msgstr "Angezeigte Nachricht, wenn keine Seiten vorhanden sind."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:303
+msgid "Display first entry from origin"
+msgstr "Erste Seite aus Quellseite anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:305
+#: packages/tds_page_list/blocks/tds_page_list/form.php:320
+#: packages/tds_page_list/blocks/tds_page_list/form.php:354
+#: packages/tds_page_list/blocks/tds_page_list/form.php:386
+#: packages/tds_page_list/blocks/tds_page_list/form.php:474
+#: packages/tds_page_list/blocks/tds_page_list/form.php:498
+msgid "No"
+msgstr "Nein"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:306
+#: packages/tds_page_list/blocks/tds_page_list/form.php:321
+#: packages/tds_page_list/blocks/tds_page_list/form.php:387
+#: packages/tds_page_list/blocks/tds_page_list/form.php:499
+msgid "Yes"
+msgstr "Ja"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:318
+msgid "Include Page Name"
+msgstr "Seitennamen anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:322
+msgid "Full width"
+msgstr "Volle Breite"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:333
+msgid "Page name clickable"
+msgstr "Seitenname anklickbar"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:337
+msgid "Format for Page Name"
+msgstr "Format für Seitennamen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:339
+msgid "None"
+msgstr "Keins"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:340
+msgid "Header 2"
+msgstr "Header: 2"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:341
+msgid "Header 3"
+msgstr "Header: 3"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:342
+msgid "Header 4"
+msgstr "Header 4"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:343
+msgid "Header 5"
+msgstr "Header: 5"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:344
+msgid "Header 6"
+msgstr "Header: 6"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:352
+msgid "Include Public Page Date"
+msgstr "Veröffentlichungsdatum anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:355
+msgid "Date"
+msgstr "Datum"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:356
+msgid "Date, time"
+msgstr "Datum, Uhrzeit"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:364
+msgid "Position for date/time"
+msgstr "Position für Datum/Uhrzeit"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:366
+msgid "Over page name"
+msgstr "Über Seitennamen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:367
+msgid "After page name"
+msgstr "Hinter Seitennamen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:368
+msgid "Below page name"
+msgstr "Unter Seitennamen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:369
+msgid "Before page name"
+msgstr "Vor Seitennamen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:375
+msgid "This is usually the date the page is created. It can be changed from the page attributes panel."
+msgstr "Gewöhnlich wird das Erstellungsdatum der Seite verwendet. Das Datum kann in den Seiteneinstellungen geändert werden."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:384
+msgid "Include Page Description"
+msgstr "Seitenbeschreibung anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:394
+msgid "Display Truncated Description"
+msgstr "Beschreibungstext kürzen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:403
+msgid "characters"
+msgstr "Zeichen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:410
+msgid "Display Thumbnail Image"
+msgstr "Vorschaubild anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:414
+msgid "No image"
+msgstr "Kein Bild"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:415
+msgid "16.6%"
+msgstr "16.6%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:416
+msgid "25%"
+msgstr "25%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:417
+msgid "33.3%"
+msgstr "33.3%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:418
+msgid "41.6%"
+msgstr "41.6%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:419
+msgid "50%"
+msgstr "50%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:420
+msgid "58.3%"
+msgstr "58.3%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:421
+msgid "66.6%"
+msgstr "66.6%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:422
+msgid "75%"
+msgstr "75%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:423
+msgid "83.3%"
+msgstr "83.3%"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:430
+msgid "You must create an attribute with the 'thumbnail' handle in order to use this option."
+msgstr "Für diese Option muss ein Attribut mit der Kennung \"thumbnail\" (Vorschaubild) erstellt werden."
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:437
+msgid "Thumbnail position"
+msgstr "Position des Vorschaubildes"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:439
+msgid "Left"
+msgstr "Links"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:440
+msgid "Right"
+msgstr "Rechts"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:442
+msgid "Alternating start left"
+msgstr "Abwechselnd Start links"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:443
+msgid "Alternating start right"
+msgstr "Abwechselnd Start rechts"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:453
+msgid "Thumbnail clickable"
+msgstr "Vorschaubild anklickbar"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:460
+msgid "Thumbnail first (left) on mobile devices"
+msgstr "Vorschaubild zuerst (links) auf mobilen Geräten"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:472
+msgid "Click Page Name and/or Link Text to go to entry"
+msgstr "Seitenname und/oder Linktext anklicken, um zum Eintrag zu gelangen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:475
+msgid "Link Text"
+msgstr "Linktext"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:476
+msgid "Button"
+msgstr "Schaltfläche"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:484
+msgid "Link/Button Text"
+msgstr "Link/Schaltflächen-Text"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:496
+msgid "Provide RSS Feed"
+msgstr "RSS-Feed anzeigen"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:509
+msgid "RSS Feed can be found here: <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr "Der RSS-Feed ist hier zu finden: <a href=\"%s\" target=\"_blank\">%s</a>"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:513
+msgid "RSS Feed Title"
+msgstr "Titel des RSS-Feeds"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:517
+msgid "RSS Feed Description"
+msgstr "Beschreibung des RSS-Feeds"
+
+#: packages/tds_page_list/blocks/tds_page_list/form.php:521
+msgid "RSS Feed Address (URL)"
+msgstr "Adresse (URL) des RSS-Feeds"
+
+#: packages/tds_page_list/blocks/tds_page_list/view.php:16
+msgid "Empty Page List Block."
+msgstr "Angezeigte Nachricht, wenn keine Seiten vorhanden sind."
