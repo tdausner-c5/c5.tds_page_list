@@ -22,6 +22,7 @@ if ($c)
 }
 $app = \Concrete\Core\Support\Facade\Facade::getFacadeApplication();
 $selector = $app->make('helper/form/page_selector');
+$form = new Concrete\Core\Form\Service\FormX($app);
 ?>
 
 <?php echo $app->make('helper/concrete/ui')->tabs([

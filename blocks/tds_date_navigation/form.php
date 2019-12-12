@@ -1,6 +1,8 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 
 $pageSel = $app->make('helper/form/page_selector');
+$form = new Concrete\Core\Form\Service\FormX($app);
+
 ?>
 <fieldset>
     <legend><?php echo t('Filtering')?></legend>

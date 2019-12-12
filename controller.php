@@ -49,10 +49,10 @@ class Controller extends \Concrete\Core\Package\Package
 
 	public function on_start()
 	{
+        require_once DIR_APPLICATION . '/src/Form.php';
         /*
          * set route to page preview for form edit
          */
-		$route = (new Router)->route(['preview', $this->pkgHandle]);
-		Route::register($route, 'Concrete\Package\TdsPageList\Controller\Preview::preview');
-	}
+        Route::register('/ccm/' . $this->pkgHandle . '/preview', 'Concrete\Package\TdsPageList\Controller\Preview::preview');
+    }
 }
