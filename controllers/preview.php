@@ -1,14 +1,11 @@
-<?php
+<?php defined('C5_EXECUTE') or die('Access Denied.');
 /**
  * Page List Preview controller.
  *
  * the Page List Preview controller URL is
  *
  *	/ccm/tds_page_list/preview  => public function preview()
- *
  */
-defined('C5_EXECUTE') or die('Access Denied.');
-
 namespace Concrete\Package\TdsPageList\Controller;
 
 use Concrete\Core\Controller\AbstractController;

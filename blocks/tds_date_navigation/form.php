@@ -1,7 +1,12 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
-
+/**
+ * @var integer $filterByParent
+ * @var boolean $redirectToResults
+ * @var integer $filterMode
+ * @var integer $allPosition
+ */
 $pageSel = $app->make('helper/form/page_selector');
-$form = new Concrete\Core\Form\Service\FormX($app);
+$form = new Application\Form\Service\Form($app);
 
 ?>
 <fieldset>
@@ -10,7 +15,7 @@ $form = new Concrete\Core\Form\Service\FormX($app);
 		<?php echo $form->label(null, t('By Parent Page') . ':') ?>
         <div class="checkbox">
             <label>
-				<?php echo
+                <?php echo
 					$form->checkbox('filterByParent', $filterByParent, isset($cParentID) && (int) $cParentID > 0),
 					t('Filter by Parent Page')
 				?>

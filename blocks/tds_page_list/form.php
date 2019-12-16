@@ -1,7 +1,51 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
-
-use Concrete\Core\Page\Page;
-
+/**
+ * @var ArrayObject $attributeKeys
+ * @var BlockType $bt
+ * @var CollectionAttributeKey $featuredAttribute
+ * @var CollectionAttributeKey $thumbnailAttribute
+ * @var Concrete\Core\Page\Page $c
+ * @var boolean $cThis
+ * @var boolean $cThisParent
+ * @var boolean $displayAliases
+ * @var boolean $displayFeaturedOnly
+ * @var boolean $enableExternalFiltering
+ * @var boolean $filterByCustomTopic
+ * @var boolean $filterByRelated
+ * @var boolean $firstBlockOrg
+ * @var boolean $ignorePermissions
+ * @var boolean $includeAllDescendents
+ * @var boolean $includeDescription
+ * @var boolean $isOtherPage
+ * @var boolean $pageNameClickable
+ * @var boolean $thumbnailClickable
+ * @var boolean $thumbnailMobile
+ * @var boolean $truncateSummaries
+ * @var integer $displayThumbnail
+ * @var integer $includeName
+ * @var integer $num
+ * @var integer $paginate
+ * @var integer $ptID
+ * @var integer $start
+ * @var integer $truncateChars
+ * @var integer $useButtonForLink
+ * @var string $buttonLinkText
+ * @var string $datePos
+ * @var string $displayResults
+ * @var string $filterDateDays
+ * @var string $filterDateEnd
+ * @var string $filterDateOption
+ * @var string $filterDateStart
+ * @var string $includeDate
+ * @var string $nameFormat
+ * @var string $noResultsMessage
+ * @var string $orderBy
+ * @var string $pageListTitle
+ * @var string $relatedTopicAttributeKeyHandle
+ * @var string $rssFeed
+ * @var string $thumbnailPos
+ * @var string $topicFilter
+ */
 $c = Concrete\Core\Page\Page::getCurrentPage();
 $siteType = null;
 if ($c)
@@ -22,7 +66,7 @@ if ($c)
 }
 $app = \Concrete\Core\Support\Facade\Facade::getFacadeApplication();
 $selector = $app->make('helper/form/page_selector');
-$form = new Concrete\Core\Form\Service\FormX($app);
+$form = new Application\Form\Service\Form($app);
 ?>
 
 <?php echo $app->make('helper/concrete/ui')->tabs([
