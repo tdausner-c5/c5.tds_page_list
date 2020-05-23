@@ -49,7 +49,6 @@ class Controller extends \Concrete\Core\Package\Package
 
 	public function on_start()
 	{
-        require_once DIR_APPLICATION . '/src/Form/Service/Form.php';
         /*
          * set route to page preview for form edit
          */

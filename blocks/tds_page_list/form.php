@@ -1,51 +1,55 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 /**
- * @var ArrayObject $attributeKeys
- * @var BlockType $bt
- * @var CollectionAttributeKey $featuredAttribute
- * @var CollectionAttributeKey $thumbnailAttribute
- * @var Concrete\Core\Page\Page $c
- * @var boolean $cThis
- * @var boolean $cThisParent
- * @var boolean $displayAliases
- * @var boolean $displayFeaturedOnly
- * @var boolean $enableExternalFiltering
- * @var boolean $filterByCustomTopic
- * @var boolean $filterByRelated
- * @var boolean $firstBlockOrg
- * @var boolean $ignorePermissions
- * @var boolean $includeAllDescendents
- * @var boolean $includeDescription
- * @var boolean $isOtherPage
- * @var boolean $pageNameClickable
- * @var boolean $thumbnailClickable
- * @var boolean $thumbnailMobile
- * @var boolean $truncateSummaries
- * @var integer $displayThumbnail
- * @var integer $includeName
- * @var integer $num
- * @var integer $paginate
- * @var integer $ptID
- * @var integer $start
- * @var integer $truncateChars
- * @var integer $useButtonForLink
- * @var string $buttonLinkText
- * @var string $datePos
- * @var string $displayResults
- * @var string $filterDateDays
- * @var string $filterDateEnd
- * @var string $filterDateOption
- * @var string $filterDateStart
- * @var string $includeDate
- * @var string $nameFormat
- * @var string $noResultsMessage
- * @var string $orderBy
- * @var string $pageListTitle
- * @var string $relatedTopicAttributeKeyHandle
- * @var string $rssFeed
- * @var string $thumbnailPos
- * @var string $topicFilter
+ * @var $attributeKeys ArrayObject
+ * @var $bt BlockType
+ * @var $featuredAttribute CollectionAttributeKey
+ * @var $thumbnailAttribute CollectionAttributeKey
+ * @var $c Concrete\Core\Page\Page 
+ * @var $cThis boolean
+ * @var $cThisParent boolean
+ * @var $displayAliases boolean
+ * @var $displayFeaturedOnly boolean
+ * @var $enableExternalFiltering boolean
+ * @var $filterByCustomTopic boolean
+ * @var $filterByRelated boolean
+ * @var $firstBlockOrg boolean
+ * @var $ignorePermissions boolean
+ * @var $includeAllDescendents boolean
+ * @var $includeDescription boolean
+ * @var $isOtherPage boolean
+ * @var $pageNameClickable boolean
+ * @var $thumbnailClickable boolean
+ * @var $thumbnailMobile boolean
+ * @var $truncateSummaries boolean
+ * @var $displayThumbnail integer
+ * @var $includeName integer
+ * @var $num integer
+ * @var $paginate integer
+ * @var $ptID integer
+ * @var $start integer
+ * @var $truncateChars integer
+ * @var $useButtonForLink integer
+ * @var $buttonLinkText string
+ * @var $datePos string
+ * @var $displayResults string
+ * @var $filterDateDays string
+ * @var $filterDateEnd string
+ * @var $filterDateOption string
+ * @var $filterDateStart string
+ * @var $includeDate string
+ * @var $nameFormat string
+ * @var $noResultsMessage string
+ * @var $orderBy string
+ * @var $pageListTitle string
+ * @var $relatedTopicAttributeKeyHandle string
+ * @var $rssFeed string
+ * @var $thumbnailPos string
+ * @var $topicFilter string
  */
+
+use Concrete\Package\TdsPageList\Controller\Form;
+use Concrete\Core\Support\Facade\Facade;
+
 $c = Concrete\Core\Page\Page::getCurrentPage();
 $siteType = null;
 if ($c)
@@ -64,12 +68,11 @@ if ($c)
         }
     }
 }
-$app = \Concrete\Core\Support\Facade\Facade::getFacadeApplication();
+$app = Facade::getFacadeApplication();
 $selector = $app->make('helper/form/page_selector');
-$form = new Application\Form\Service\Form($app);
-?>
+$form = new Form($app);
 
-<?php echo $app->make('helper/concrete/ui')->tabs([
+echo $app->make('helper/concrete/ui')->tabs([
     ['page-list-sampling', t('Sampling'), true],
     ['page-list-output', t('Output')],
     ['page-list-preview', t('Preview')]

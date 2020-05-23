@@ -5,8 +5,10 @@
  * @var integer $filterMode
  * @var integer $allPosition
  */
+use Concrete\Package\TdsPageList\Controller\Form;
+
 $pageSel = $app->make('helper/form/page_selector');
-$form = new Application\Form\Service\Form($app);
+$form = new Form($app);
 
 ?>
 <fieldset>
