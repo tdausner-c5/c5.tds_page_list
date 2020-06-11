@@ -1,4 +1,5 @@
 <?php
+namespace Concrete\Package\TdsPageList;
 /**
  * TDS Page List & Date Navigation add-on controller.
  *
@@ -7,7 +8,6 @@
  *
  * Copyright 2018 - TDSystem Beratung & Training - Thomas Dausner (tdausner)
  */
-namespace Concrete\Package\TdsPageList;
 
 use Concrete\Core\Block\BlockType\BlockType;
 use Concrete\Core\Routing\Router;

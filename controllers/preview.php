@@ -1,4 +1,6 @@
-<?php defined('C5_EXECUTE') or die('Access Denied.');
+<?php
+namespace Concrete\Package\TdsPageList\Controller;
+defined('C5_EXECUTE') or die('Access Denied.');
 /**
  * Page List Preview controller.
  *
@@ -6,7 +8,6 @@
  *
  *	/ccm/tds_page_list/preview  => public function preview()
  */
-namespace Concrete\Package\TdsPageList\Controller;
 
 use Concrete\Core\Controller\AbstractController;
 use Concrete\Core\Http\Request;

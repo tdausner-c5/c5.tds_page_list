@@ -1,4 +1,6 @@
 <?php
+namespace Concrete\Package\TdsPageList\Block\TdsPageList;
+defined('C5_EXECUTE') or die("Access Denied.");
 /**
  * TDS Page List add-on block controller.
  *
@@ -6,8 +8,6 @@
  *
  * Copyright 2018 - TDSystem Beratung & Training - Thomas Dausner (tdausner)
  */
-
-namespace Concrete\Package\TdsPageList\Block\TdsPageList;
 
 use Concrete\Core\Block\BlockType\BlockType;
 use Concrete\Core\Attribute\Key\CollectionKey as CollectionAttributeKey;

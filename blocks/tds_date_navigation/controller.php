@@ -1,4 +1,6 @@
 <?php
+namespace Concrete\Package\TdsPageList\Block\TdsDateNavigation;
+defined('C5_EXECUTE') or die("Access Denied.");
 /**
  * TDS Date Navigation add-on block controller.
  *
@@ -6,9 +8,6 @@
  *
  * Copyright 2018 - TDSystem Beratung & Training - Thomas Dausner
  */
-namespace Concrete\Package\TdsPageList\Block\TdsDateNavigation;
-
-defined('C5_EXECUTE') or die("Access Denied.");
 use Concrete\Core\Block\BlockController;
 use Concrete\Core\Page\PageList;
 use Concrete\Core\Page\Type\Type;
