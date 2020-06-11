@@ -7,6 +7,14 @@ a.ccm-block-page-list-rss-feed {
 div.ccm-block-page-list-wrapper {
     position: relative;
 }
+div.ccm-block-page-list-wrapper h2,
+div.ccm-block-page-list-wrapper h3,
+div.ccm-block-page-list-wrapper h4,
+div.ccm-block-page-list-wrapper h5,
+div.ccm-block-page-list-wrapper h6 {
+    margin-top: 0;
+}
+
 
 .ccm-block-page-list-date.before::after,
 .ccm-block-page-list-date.after::before {
